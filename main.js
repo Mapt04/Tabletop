@@ -1,6 +1,7 @@
 $(document).ready(function()
 {
-    createBoard();
+    b = new Board();
+    b.createBoard();
 
     $(".square").click(function(){
         
